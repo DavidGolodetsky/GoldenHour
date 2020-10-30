@@ -1,7 +1,7 @@
 <template>
   <div>
     <p class="text-4xl">
-      <Icon class="iconify inline-block" icon="carbon:campsite" />
+      <Icon class="iconify inline-block" icon="mdi:weather-sunset" />
     </p>
     <p>
       Golden Hour

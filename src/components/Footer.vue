@@ -1,7 +1,7 @@
 <template>
   <div class="text-xl mt-6">
     <div class="icon-btn mx-2" @click="isDark = !isDark">
-      <Icon :icon="isDark ? 'carbon:moon' : 'carbon:sun'" class="inline-block" />
+      <Icon :icon="isDark ? 'mdi:moon-waning-crescent' : 'mdi:white-balance-sunny'" class="inline-block" />
     </div>
 
     <!-- <div class="icon-btn mx-2" @click="toggleLocales">
@@ -9,7 +9,7 @@
     </div> -->
 
     <a class="icon-btn mx-2" href="https://github.com/DavidGolodetsky/GoldenHour" target="_blank">
-      <Icon icon="carbon:code" class="inline-block" />
+      <Icon icon="mdi:code-tags" class="inline-block" />
     </a>
   </div>
 </template>
