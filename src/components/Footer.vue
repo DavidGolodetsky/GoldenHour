@@ -1,7 +1,7 @@
 <template>
   <div class="text-xl mt-6">
     <div class="icon-btn mx-2" @click="isDark = !isDark">
-      <Icon :icon="isDark ? 'mdi:moon-waning-crescent' : 'mdi:white-balance-sunny'" class="inline-block" />
+      <Icon :icon="isDark ? 'carbon:moon' : 'carbon:sun'" class="inline-block" />
     </div>
 
     <!-- <div class="icon-btn mx-2" @click="toggleLocales">
