@@ -8,7 +8,7 @@
       <Icon icon="carbon:language" class="inline-block" />
     </div> -->
 
-    <a class="icon-btn mx-2" href="https://github.com/antfu/vitesse" target="_blank">
+    <a class="icon-btn mx-2" href="https://github.com/DavidGolodetsky/GoldenHour" target="_blank">
       <Icon icon="carbon:code" class="inline-block" />
     </a>
   </div>
