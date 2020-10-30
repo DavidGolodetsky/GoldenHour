@@ -15,7 +15,7 @@ const config: UserConfig = {
     Voie({
       // load index page sync and bundled with the landing page to improve first loading time.
       // feel free to remove if you don't need it
-      importMode(path: string) {
+      importMode (path: string) {
         if (path === '/src/pages/index.vue')
           return 'sync'
         return 'async'
@@ -29,8 +29,8 @@ const config: UserConfig = {
     PurgeIcons(),
     VitePWA({
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
+        name: 'Golden Hour',
+        short_name: 'Golden Hour',
         icons: [
           {
             src: '/pwa-192x192.png',

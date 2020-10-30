@@ -9,7 +9,7 @@
     </div> -->
 
     <a class="icon-btn mx-2" href="https://github.com/DavidGolodetsky/GoldenHour" target="_blank">
-      <Icon icon="mdi:code-tags" class="inline-block" />
+      <Icon icon="carbon:code" class="inline-block" />
     </a>
   </div>
 </template>
