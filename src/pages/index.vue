@@ -1,7 +1,7 @@
 <template>
   <div>
     <img
-      src="../../../public/ghour.svg"
+      src="/ghour.svg"
       width="50"
       class="mx-auto"
     >
