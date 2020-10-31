@@ -1,8 +1,10 @@
 <template>
   <div>
-    <p class="text-4xl">
-      <Icon class="iconify inline-block" icon="carbon:camera-action" />
-    </p>
+    <img
+      src="../../../public/ghour.svg"
+      width="50"
+      class="mx-auto"
+    >
     <p>
       Golden Hour
     </p>
@@ -33,7 +35,7 @@
 </template>
 
 <script setup lang='ts'>
-import { ref } from 'vue'
+import { ref } from "vue";
 // import { useRouter } from 'vue-router'
 // import { useI18n } from 'vue-i18n'
 

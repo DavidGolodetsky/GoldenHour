@@ -4,3 +4,10 @@
     <Footer />
   </div>
 </template>
+
+<script setup lang='ts'>
+const setupSW = (() => {
+  if ("serviceWorker" in navigator)
+    navigator.serviceWorker.register("../service-worker.js");
+})();
+</script>
