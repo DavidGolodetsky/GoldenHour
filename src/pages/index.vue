@@ -29,7 +29,6 @@
         {{ t('button.go') }}
       </button>
     </div> -->
-
     <SunPosition />
   </div>
 </template>
