@@ -11,3 +11,4 @@ const setupSW = (() => {
     navigator.serviceWorker.register("../service-worker.js");
 })();
 </script>
+

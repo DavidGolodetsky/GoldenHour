@@ -14,10 +14,10 @@
   </div>
 
   <!-- TODO:handle loading with Suspense -->
-  <span
+  <div
     v-else
-    class="relative animate-ping inline-flex rounded-full h-3 w-3 bg-red-500"
-  ></span>
+    class="animate-ping mx-auto rounded-full h-3 w-3 bg-red-500"
+  ></div>
 </template>
 
 <script setup lang='ts'>
