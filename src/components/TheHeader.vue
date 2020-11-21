@@ -1,5 +1,8 @@
 <template>
-  <div class="mb-2 flex justify-end">
+  <div
+    id="the-header"
+    class="mb-2 flex justify-end"
+  >
   </div>
 </template>
 

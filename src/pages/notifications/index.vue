@@ -26,9 +26,22 @@
       Submit
     </button>
   </div>
+  {{notificationSetted}}
+  <teleport
+    to="#the-header"
+    v-if="notificationSetted"
+  >
+    <Icon
+      class="iconify inline-block"
+      icon="carbon:notification"
+    />
+  </teleport>
 </template>
 <script setup lang='ts'>
 import { reactive } from "vue";
+import { ref } from "vue";
+
+export let notificationSetted = ref(false);
 
 export const notificationTypes = [
   { type: "bh", name: "Blue Hour", active: false },
@@ -37,6 +50,7 @@ export const notificationTypes = [
 
 export const setNotifications = () => {
   console.log("awd");
+  notificationSetted.value = true;
 };
 
 export const settings = reactive({
