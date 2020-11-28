@@ -1,6 +1,7 @@
 {
   "name": "golden-hour",
   "version": "0.0.0",
+  "author": "DavidGo",
   "private": true,
   "scripts": {
     "dev": "vite --port 3333 --open",
@@ -34,8 +35,5 @@
   },
   "eslintConfig": {
     "extends": "@antfu/eslint-config-vue"
-  },
-  "overrides": {
-    "postcss": "8"
   }
 }
